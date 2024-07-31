@@ -31,7 +31,7 @@ let uni = union[0]      //cannot specify or infer data type
 
                 /////// object literals ////////
 
-// let obj = {id: 1, name: 'name', age: 33}  //automatically infers type to property of object
+// let obj = {id: 1, name: 'name', age: 33}  //automatically infers type to value of the property of the object
 let obj: {id: number, name: string, age: number} = {
     id: 1, 
     name: 'name', 
@@ -39,3 +39,14 @@ let obj: {id: number, name: string, age: number} = {
 } 
 obj.name = "45"
 console.log(obj.name)
+
+
+
+                    // Any type
+// let myName;    //infers the type 'abny' to the value of the variable by default
+let myName: any
+myName = 'ayo';
+myName = 45;
+myName = [];
+myName = true
+myName = {}

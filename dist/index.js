@@ -22,7 +22,7 @@ console.log(arr, numArr);
 let union = ['a', 1, true];
 let uni = union[0]; //cannot specify or infer data type   
 /////// object literals ////////
-// let obj = {id: 1, name: 'name', age: 33}  //automatically infers type to property of object
+// let obj = {id: 1, name: 'name', age: 33}  //automatically infers type to value of the property of the object
 let obj = {
     id: 1,
     name: 'name',
@@ -30,3 +30,11 @@ let obj = {
 };
 obj.name = "45";
 console.log(obj.name);
+// Any type
+// let myName;    //infers the type 'abny' to the value of the variable by default
+let myName;
+myName = 'ayo';
+myName = 45;
+myName = [];
+myName = true;
+myName = {};
