@@ -38,3 +38,5 @@ myName = 45;
 myName = [];
 myName = true;
 myName = {};
+// Any type in array
+let anyType = ['hello', 4, true, null];

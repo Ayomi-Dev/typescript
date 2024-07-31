@@ -50,3 +50,7 @@ myName = 45;
 myName = [];
 myName = true
 myName = {}
+
+
+// Any type in array
+let anyType: any[] = ['hello', 4, true, null]
